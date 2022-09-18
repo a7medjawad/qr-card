@@ -38,4 +38,3 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Website - [Soon]()
 - Frontend Mentor - [@a7medjawad](https://www.frontendmentor.io/profile/a7medjawad)
 - Twitter - [@Hamdoun\_](https://twitter.com/Hamdoun_)
-  //////////////////////
