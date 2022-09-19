@@ -23,41 +23,25 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
-  <body class="bg-[#d6e2f0] font-[Outfit]">
-    <div
-      class="min-h-screen flex justify-items-center align-middle items-center"
+  <body class="bg-[#d6e2f0] font-[Outfit] grid place-items-center h-screen">
+    <main
+      class="justify-items-center bg-white rounded-3xl shadow-xl grid grid-cols-1 md:p-16 md:w-[22%] md:gap-6 md:pt-4 md:px-4 sm:p-8 sm:w-[40%] sm:gap-6 sm:pt-4 sm:px-4 mx-auto px-3 pt-4 gap-5 w-[80%]"
     >
-      <div class="md:p-16 p-8 md:w-2/6 mx-auto">
-        <div class="bg-white rounded-3xl shadow-xl grid grid-cols-1 p-4">
-          <img
-            class="rounded-xl block w-full"
-            src="images/image-qr-code.png"
-            alt="img qr code"
-          />
+      <img
+        class="rounded-xl block w-full"
+        src="images/image-qr-code.png"
+        alt="img qr code"
+      />
 
-          <div class="px-3 md:px-6 py-5">
-            <h1 class="font-bold text-center text-xl md:text-2xl">
-              Improve your front-end skills by building projects
-            </h1>
-            <p class="font-light text-center text-base pt-4 text-[#7b879d]">
-              Scan the QR code to visit Frontend Mentor and take your coding
-              skills to the next level
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- 
-    <div class="attribution text-xs text-center">
-
-      Challenge by
-      <a
-        class="text-[#3e52a3]"
-        href="https://www.frontendmentor.io?ref=challenge"
-        target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a class="text-[#3e52a3]" href="#">Your Name Here</a>.
-    </div> -->
+      <h1 class="font-bold text-center text-xl md:text-2xl px-2">
+        Improve your front-end skills by building projects
+      </h1>
+      <p
+        class="font-light text-center text-base text-[#7b879d] md:pb-1 pb-10 px-2"
+      >
+        Scan the QR code to visit Frontend Mentor and take your coding skills to
+        the next level
+      </p>
+    </main>
   </body>
 </html>
